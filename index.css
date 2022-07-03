@@ -1,0 +1,128 @@
+body{
+	background-color:black;
+	width: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding-left: 40%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .main{
+    display: flex;
+    text-align: center;
+  }
+  
+.image{
+    width: auto;
+}
+
+.first{
+  position: absolute;
+  bottom: 45%;
+  right: 20%;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-right: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.second{
+    position: absolute;
+    bottom: 30%;
+    right: 140px;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 20px;
+    color: dodgerblue;
+    font-family: 'Courier New', Courier, monospace;
+  }
+.third{
+    position: absolute;
+    bottom: 20%;
+    right: 25%;
+    font-size: 40px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+.icon{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.icon i{
+    padding: 20px;
+}
+
+.icon i:hover{
+    opacity: 0.3;
+}
+
+.text1{
+    background-color: dodgerblue;
+    background-size: 100%;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 40px 150px 90px 150px;
+    font-family: monospace;
+}
+
+h2{
+    padding-bottom: 30px;
+}
+
+.text2{
+    background-color: white;
+    background-size: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:dodgerblue;
+
+}
+.text2 img{
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+}
+.icon1{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.icon1 i{
+    padding: 20px;
+}
