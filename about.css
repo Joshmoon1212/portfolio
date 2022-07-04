@@ -1,0 +1,107 @@
+body{
+	background-color: black;
+	width: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding-left: 40%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    color: dodgerblue;
+  }
+
+.main{
+    
+}
+
+h1{
+    text-align: center;
+    color: rgb(239, 244, 250);
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+}
+
+p{
+    text-align: center;
+    background-color: rgb(12, 13, 53);
+    border-radius: 20px;
+    color: rgb(238, 243, 248);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 100px 20px 100px;
+    line-height: 50px;
+}
+
+.line span{
+    color: white;
+    margin-left: 25%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+hr{
+    height: 20px;
+    width: 25%;
+    background-color: dodgerblue;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 50px;
+    margin-left: 20%;
+;
+}
+
+.one{
+    height: 20px;
+    width: 23%;
+}
+
+.two{
+    height: 20px;
+    width: 19%;
+}
+
+.three{
+    height: 20px;
+    width: 10%;
+}
+
+.icon1{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.icon1 i{
+    padding: 20px;
+}

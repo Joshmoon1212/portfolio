@@ -27,11 +27,14 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
+    color: dodgerblue;
   }
 
   .main{
@@ -45,7 +48,7 @@ ul {
 
 .first{
   position: absolute;
-  bottom: 45%;
+  bottom: 50%;
   right: 20%;
   font-size: 40px;
   padding-left: 30px;
@@ -55,7 +58,7 @@ ul {
 }
 .second{
     position: absolute;
-    bottom: 30%;
+    bottom: 35%;
     right: 140px;
     font-size: 25px;
     padding-left: 30px;
@@ -65,7 +68,7 @@ ul {
   }
 .third{
     position: absolute;
-    bottom: 20%;
+    bottom: 25%;
     right: 25%;
     font-size: 40px;
     color: white;
@@ -115,6 +118,11 @@ h2{
     text-align: center;
     border-radius: 10px;
 }
+
+.text2 img:hover{
+    width: 20.5%;
+}
+
 .icon1{
     background-color: dodgerblue;
     color: white;
