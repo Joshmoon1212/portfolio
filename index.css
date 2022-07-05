@@ -14,7 +14,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    padding-left: 40%;
+    padding-left: 35%;
   }
   
   li {
@@ -97,8 +97,29 @@ ul {
     font-size: 30px;
     text-align: center;
     color: white;
-    padding: 40px 150px 90px 150px;
+    padding: 40px 150px 60px 150px;
     font-family: monospace;
+}
+
+#read{
+  text-align: center;
+  font-size: x-large;
+  background-color: white;
+  margin-top: 40px;
+}
+
+#read a{
+  text-decoration: none;
+  color: dodgerblue;
+  padding: 10px 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#read a:hover{
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 h2{
@@ -109,18 +130,32 @@ h2{
     background-color: white;
     background-size: 100%;
     text-align: center;
+    height: auto;
     font-family: 'Courier New', Courier, monospace;
     color:dodgerblue;
-
 }
-.text2 img{
+
+.text2 h2{
+  font-size: xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.column {
+    float: left;
+    margin-left: 10%;
     width: 20%;
-    text-align: center;
-    border-radius: 10px;
+    height: 60%;
+    padding: 5px;
+}
+    
+.row::after {
+    content: "";
+    clear: both;
+     display: table;
 }
 
-.text2 img:hover{
-    width: 20.5%;
+.column:hover{
+    width: 21.5%;
 }
 
 .icon1{

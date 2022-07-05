@@ -49,7 +49,7 @@ h1{
     padding-top: 20px;
 }
 
-p{
+.main p{
     text-align: center;
     background-color: rgb(12, 13, 53);
     border-radius: 20px;
@@ -60,37 +60,14 @@ p{
     line-height: 50px;
 }
 
-.line span{
-    color: white;
-    margin-left: 25%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.progress{
+    margin: 60px 30%;
 }
 
-
-hr{
-    height: 20px;
-    width: 25%;
-    background-color: dodgerblue;
+.progress p{
     text-align: center;
-    margin-top: 50px;
-    border-radius: 50px;
-    margin-left: 20%;
-;
-}
-
-.one{
-    height: 20px;
-    width: 23%;
-}
-
-.two{
-    height: 20px;
-    width: 19%;
-}
-
-.three{
-    height: 20px;
-    width: 10%;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .icon1{
