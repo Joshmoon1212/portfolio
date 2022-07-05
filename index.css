@@ -37,6 +37,7 @@ ul {
     background-color: #111;
     color: dodgerblue;
   }
+  
 .write{
     display: flex;
     flex-direction: column;
