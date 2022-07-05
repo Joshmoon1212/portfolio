@@ -14,7 +14,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    padding-left: 40%;
+    padding-left: 35%;
+    position: relative;
   }
   
   li {
@@ -38,7 +39,11 @@ ul {
   }
 
 .main{
-    
+    display: flex;
+    background-color: rgb(12, 13, 53);
+    width: 95%;
+    margin-left: 2.5%;
+    border-radius: 15px;
 }
 
 h1{
@@ -51,10 +56,9 @@ h1{
 
 .main p{
     text-align: center;
-    background-color: rgb(12, 13, 53);
     border-radius: 20px;
     color: rgb(238, 243, 248);
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px 100px 20px 100px;
     line-height: 50px;

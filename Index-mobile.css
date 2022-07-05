@@ -37,6 +37,7 @@ ul {
     background-color: #111;
     color: dodgerblue;
   }
+
 .write{
     display: flex;
     flex-direction: column;
@@ -88,7 +89,6 @@ ul {
 
 .icon i:hover{
     opacity: 0.3;
-    padding-top: 4px;
 }
 
 .text1{
