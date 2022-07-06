@@ -6,8 +6,8 @@
                <meta name="keywords" content="HTML, CSS, JavaScript">
                <meta name="author" content="Ayug Donald">
                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-               <Link rel="stylesheet"  type="text/css"  href="index.css" />
-               <link rel="stylesheet" media="screen and (max-width: 768px)" href="Index-mobile.css"> 
+               <Link rel="stylesheet"  type="text/css"  href="contact.css" />
+               <link rel="stylesheet" media="screen and (max-width: 768px)" href="contact-mobile.css"> 
 			   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             </head>
 			<body>
@@ -18,16 +18,36 @@
           <li><a href="contact.html">contact</a></li>
         </ul> 
 
+        <div class="icon1">
+          <h3>CONNECT</h3>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-github"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter-square"></i>
+          <i class="fa fa-linkedin"></i>
+          <i class="fa fa-google"></i>
+          <i class="fa fa-telegram"></i>
+       </div>
+
         <div class="bg-img">
             <form action="/action_page.php" class="container">
-              <h1>Login</h1>
+              <h1>Send Message</h1>
           
+              <label for="text"><b>Name</b></label>
+              <input type="text" placeholder="Enter name" name="name" required>
+
+
               <label for="email"><b>Email</b></label>
               <input type="text" placeholder="Enter Email" name="email" required>
+              
           
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
+              <label for="text"><b>text</b></label>
+              <input type="text" placeholder="Enter text" name="text" required>
           
-              <button type="submit" class="btn">Login</button>
+              <button type="submit" class="btn">send</button>
             </form>
           </div>
+
+        
+      </body>
+</html>

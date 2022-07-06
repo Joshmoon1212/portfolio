@@ -38,34 +38,24 @@ ul {
     color: dodgerblue;
   }
 
-  .bg-img {
-    /* The image used */
-    background-image: url("photo/poto6.png");
-  
-    /* Control the height of the image */
-    min-height: 380px;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+.bg-img {
+
+}
   
   /* Add styles to the form container */
   .container {
     position: absolute;
-    right: 0;
+    right: 25%;
     margin: 20px;
-    max-width: 300px;
     padding: 16px;
     background-color: white;
+    border-radius: 15px;
+    margin-top: 3.5%;
   }
   
-  /* Full-width input fields */
     input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
+    width: 95%;
+    padding: 18px;
     margin: 5px 0 22px 0;
     border: none;
     background: #f1f1f1;
@@ -83,10 +73,30 @@ ul {
     padding: 16px 20px;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 40%;
     opacity: 0.9;
+    border-radius: 10px;
   }
   
   .btn:hover {
     opacity: 1;
+    width: 42%;
   }
+
+
+  .icon1{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0.4%;
+}
+
+.icon1 i{
+    padding: 20px;
+}
+.icon i:hover{
+    opacity: 0.3;
+    padding-top: 4px;
+}

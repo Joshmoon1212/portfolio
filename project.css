@@ -67,62 +67,59 @@ hr{
     padding: 8px;
   }
   
-  /* Create four equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 40%;
-    margin: 5px 30px;
-  }
+.column {
+  float: left;
+  width:40%;
+  margin: 5px 30px;
+}
 
 .column :hover{
    padding-bottom: 18px;
 }
   
-  /* Clear floats after rows */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
   
-  /* Content */
-  .content1 {
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-  }
-  .content2 {
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
+.content1 {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.content2 {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
   }
   .content3 {
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-  }
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
+@media screen and (max-width: 900px) {
+  .column {
+  width: 50%;
+ }
+}
+@media screen and (max-width: 600px) {
+  .column {
+ width: 100%;
   }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
-  .icon1{
-    background-color: dodgerblue;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    padding: 20px;
+}
+
+.icon1{
+  background-color: dodgerblue;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
 }
 
 .icon1 i{
-    padding: 20px;
+  padding: 20px;
 }
+
